@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaurav weds Shubhi | The Royal Invitation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --warm-ivory: #F8F4EC;
+        --antique-gold: #C5A46D;
+        --soft-taupe: #D6CEC3;
+        --muted-sand: #E7DFD4;
+        --deep-espresso: #3A312A;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: var(--warm-ivory);
+        color: var(--deep-espresso);
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+      }
+      .font-luxury { font-family: 'Cormorant Garamond', serif; }
+      .font-accent { font-family: 'Lora', serif; }
+      .font-names { font-family: 'Great Vibes', cursive; }
+      
+      /* Luxury Background Pattern */
+      .bg-royal-pattern {
+        background-image: radial-gradient(#C5A46D 0.5px, transparent 0.5px);
+        background-size: 32px 32px;
+        opacity: 0.08;
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: var(--warm-ivory); }
+      ::-webkit-scrollbar-thumb { background: var(--antique-gold); border-radius: 10px; }
+
+      @keyframes shimmer {
+        0% { background-position: -1000px 0; }
+        100% { background-position: 1000px 0; }
+      }
+      .shimmer {
+        background: linear-gradient(to right, #C5A46D 8%, #E7DFD4 18%, #C5A46D 33%);
+        background-size: 1000px 100%;
+        animation: shimmer 8s infinite linear;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .perspective-1000 {
+        perspective: 1000px;
+      }
+    </style>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0",
+    "react-dom": "https://esm.sh/react-dom@19.0.0",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
+    "framer-motion": "https://esm.sh/framer-motion@11.11.17?external=react,react-dom",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
