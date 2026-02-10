@@ -104,7 +104,7 @@ const Itinerary: React.FC = () => {
           >
             <EventCard 
               date="25 FEB 2026" 
-              title="The Wedding" 
+              title="The Wedding Reception" 
               time="07:00 PM Onwards" 
               description="Baraat Arrival followed by the Sacred Wedding Ceremony and Dinner."
             />
